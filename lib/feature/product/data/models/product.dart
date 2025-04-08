@@ -1,8 +1,8 @@
-import 'package:dummy_api_test/data/models/review.dart';
-import 'package:dummy_api_test/domain/entities/i_product.dart';
 
+import '../../domain/entities/i_product.dart';
 import 'dimensions.dart';
 import 'meta.dart';
+import 'review.dart';
 
 class Product extends IProduct {
   Product({

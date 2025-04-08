@@ -1,8 +1,9 @@
 
 
 
-import 'package:dummy_api_test/domain/usecases/get_products_use_case.dart';
 import 'package:get/get.dart';
+
+import '../../domain/usecases/get_products_use_case.dart';
 
 class ProductController extends GetxController{
   final GetProductsUseCase getProductsUseCase;

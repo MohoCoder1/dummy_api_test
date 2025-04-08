@@ -1,7 +1,8 @@
 
 
 import 'package:dio/dio.dart';
-import 'package:dummy_api_test/data/models/product.dart';
+
+import '../models/product.dart';
 
 class RemoteProductDatasource extends IRemoteProductDataSource{
    final Dio _dio = Dio();

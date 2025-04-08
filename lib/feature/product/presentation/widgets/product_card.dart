@@ -1,7 +1,8 @@
 
 
-import 'package:dummy_api_test/domain/entities/i_product.dart';
 import 'package:flutter/material.dart';
+
+import '../../domain/entities/i_product.dart';
 
 class ProductCard extends StatelessWidget {
   const ProductCard({super.key, required this.product});

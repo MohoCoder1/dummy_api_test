@@ -1,8 +1,8 @@
 
 
-import 'package:dummy_api_test/data/datasource/remote_product_datasource.dart';
-import 'package:dummy_api_test/domain/entities/i_product.dart';
-import 'package:dummy_api_test/domain/repository/i_product_repository.dart';
+import '../../domain/entities/i_product.dart';
+import '../../domain/repository/i_product_repository.dart';
+import '../datasource/remote_product_datasource.dart';
 
 class ProductRepository extends IProductRepository{
   final IRemoteProductDataSource dataSource;

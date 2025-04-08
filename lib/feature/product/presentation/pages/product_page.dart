@@ -1,8 +1,8 @@
-import 'package:dummy_api_test/presentation/widgets/product_card.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../controllers/product_controller.dart';
+import '../widgets/product_card.dart';
 
 class ProductPage extends StatelessWidget {
   ProductPage({super.key});

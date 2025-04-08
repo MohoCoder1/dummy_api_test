@@ -1,4 +1,5 @@
-import 'package:dummy_api_test/domain/entities/i_dimensions.dart';
+
+import '../../domain/entities/i_dimensions.dart';
 
 class Dimensions extends IDimensions {
   Dimensions({

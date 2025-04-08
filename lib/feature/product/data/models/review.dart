@@ -1,4 +1,5 @@
-import 'package:dummy_api_test/domain/entities/i_review.dart';
+
+import '../../domain/entities/i_review.dart';
 
 class Review extends IReview {
   Review({
@@ -19,6 +20,7 @@ class Review extends IReview {
     );
   }
 
+  @override
   Map<String, dynamic> toJson() {
     return {
       'rating': rating,

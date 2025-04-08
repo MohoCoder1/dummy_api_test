@@ -1,4 +1,5 @@
-import 'package:dummy_api_test/domain/entities/i_meta.dart';
+
+import '../../domain/entities/i_meta.dart';
 
 class Meta extends IMeta {
   Meta({
@@ -16,6 +17,7 @@ class Meta extends IMeta {
       qrCode: json['qrCode'] ?? '',
     );
   }
+  @override
   Map<String, dynamic> toJson() {
     return {
       'createdAt': createdAt.toIso8601String(),

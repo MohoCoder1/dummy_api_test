@@ -1,7 +1,8 @@
 import 'package:dummy_api_test/core/di.dart';
-import 'package:dummy_api_test/presentation/pages/product_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import 'feature/product/presentation/pages/product_page.dart';
 
 void main() {
   DependencyInjection.init();
