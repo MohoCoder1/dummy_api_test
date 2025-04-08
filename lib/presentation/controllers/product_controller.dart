@@ -7,16 +7,16 @@ import 'package:get/get.dart';
 class ProductController extends GetxController{
   final GetProductsUseCase getProductsUseCase;
   final RxList products = [].obs;
-  final RxBool isLoading = true.obs;
+  final RxBool isLoading = false.obs;
   final RxString errorMessage = ''.obs;
 
   ProductController({required this.getProductsUseCase});
 
-  @override
-  void onInit() {
-    super.onInit();
-    fetchProducts();
-  }
+  // @override
+  // void onInit() {
+  //   super.onInit();
+    // fetchProducts();
+  // }
 
   void fetchProducts() async {
     try {
